@@ -1,0 +1,36 @@
+body {
+	margin: unset;
+	font-family: sans-serif;
+}
+
+.App {
+	display: flex;
+	background: #f3f6f8;
+}
+
+.sidenav {
+	width: 200px;
+	height: 100vh;
+	border-right: 1px solid #C6D2D9;
+	background: #ffffff;
+}
+
+.sidenav .menu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+
+.header {
+	color: #4ba6ee;
+	font-weight: 700;
+	font-size: 25px;
+	display: block;
+	border-bottom: 1px solid #C6D2D9;
+	padding: 12px 50px;
+	width: 100%;
+}
+
+.content {
+	padding: 15px;
+}

@@ -1,0 +1,66 @@
+.project-button {
+	color: #03a9f4;
+	margin-left: 1rem;
+} 
+.project-button .plus {
+	border-radius: 50px;
+	margin-right: 5px;
+	border: 1px solid;
+	padding: 0px 4px;
+}
+
+.content .timer {
+	background: #FFFFFF;
+	padding: 10px;
+	width: 100%;
+}
+
+.timer .input {
+	border: unset;
+	padding: 5px;
+	border-radius: unset;
+	min-width: 600px;
+}
+
+.timer .input:hover {
+	border: 1px solid #C6D2D9;
+}
+
+.timer .counter {
+	font-size: 1.286rem;
+	font-weight: 500;
+	color: #333;
+	margin-left: 1rem;
+}
+
+.content {
+	width: 100%;
+}
+
+.timer button {
+	background: #03a9f4;
+	color: #FFFFFF;
+	border-radius: unset;
+	border: unset;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-left: 1rem;
+}
+
+.content .row {
+	border: 1px solid gray;
+	display: block;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+
+.columns {
+	min-width: 200px;
+	display: inline-flex;
+}
+
+.columns.time {
+	font-size: 1.286rem;
+	font-weight: 500;
+	color: #333;
+}
